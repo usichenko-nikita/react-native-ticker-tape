@@ -43,7 +43,10 @@
     "marquee",
     "crawler"
   ],
-  "repository": "https://github.com/usichenko-nikita/react-native-ticker-tape",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usichenko-nikita/react-native-ticker-tape.git"
+  },
   "author": "Nikita Usichenko <nik.usichenko@gmail.com> (https://github.com/usichenko-nikita)",
   "license": "MIT",
   "bugs": {
@@ -88,7 +91,6 @@
     "react-native-reanimated": ">=2.0.0",
     "react-native-redash": ">=2.0.0"
   },
-
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [

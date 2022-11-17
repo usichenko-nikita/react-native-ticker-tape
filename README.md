@@ -2,6 +2,8 @@
 
 React Native Ticker Tape/Marquee/Crawler
 
+<img src="assets/example.gif"/>
+
 ## Installation
 
 ```sh
@@ -14,7 +16,7 @@ npm install react-native-ticker-tape
 import {Ticker} from 'react-native-ticker-tape';
 
 // ...
-
+return (
 <Ticker msPerPX={100}>
   <Text style={styles.text}>
     Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -29,6 +31,7 @@ import {Ticker} from 'react-native-ticker-tape';
     Lorem Ipsum.
   </Text>
 </Ticker>
+)
 ```
 
 ## Contributing
