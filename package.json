@@ -1,7 +1,7 @@
 {
   "name": "react-native-ticker-tape",
   "version": "0.1.0",
-  "description": "test",
+  "description": "React Native Ticker Tape/Marquee/Crawler",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -38,7 +38,10 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "ticker",
+    "marquee",
+    "crawler"
   ],
   "repository": "https://github.com/usichenko-nikita/react-native-ticker-tape",
   "author": "Nikita Usichenko <nik.usichenko@gmail.com> (https://github.com/usichenko-nikita)",
@@ -69,6 +72,9 @@
     "react": "18.1.0",
     "react-native": "0.70.5",
     "react-native-builder-bob": "^0.20.0",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-reanimated": "~2.8.0",
+    "react-native-redash": "^18.1.0",
     "release-it": "^15.0.0",
     "typescript": "^4.5.2"
   },
@@ -77,8 +83,12 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": ">=2.0.0",
+    "react-native-redash": ">=2.0.0"
   },
+
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
